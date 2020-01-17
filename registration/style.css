@@ -1,0 +1,67 @@
+label
+{
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table
+{
+    border-collapse: collapse;
+    width: 30%;
+}
+td
+{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.right
+{
+    text-align: right;
+}
+
+.inline
+{
+    display: inline;
+}
+
+.short-form
+{
+    width: 5%;
+}
+
+.medium-form
+{
+    width: 8%;
+}
+
+.form-fill-80
+{
+    width: 80%;
+}
+.form-fill-99
+{
+    width: 99%;
+}
+
+textarea
+{
+    height: 100px;
+    resize: none;
+}
+
+tfoot
+{
+    text-align: center;
+    background-color: #D1EDE1
+}
+
+.form-lg
+{
+    width: 800px;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+        <title>Grid Component</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr class="gradient header gradient-dunk">
+                    <td colspan="6">
+                        Drag a column header and drop it here to group by that column
+                    </td>
+                </tr>
+                <tr class="gradient header">
+                    <td>ProductID</td>
+                    <td>Product name</td>
+                    <td>Unit price</td>
+                    <td>Quantity per unit</td>
+                    <td>Units in stock</td>
+                    <td>Discontinued</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="product-id" id="product-id" class="narrow"></td>
+                    <td><input type="text" name="product-name" id="product-name" class="wide"></td>
+                    <td><input type="text" name="unit-price" id="unit-price" class="medium"><button><i class="fas fa-filter"></i></button></td>
+                    <td><input type="text" name="quantity-per-unit" id="quantity-per-unit" class="medium"></td>
+                    <td><input type="text" name="units-in-stock" id="units-in-stock" class="medium"><button><i class="fas fa-filter"></i></td>
+                    <td><input type="checkbox" name="discontinued" id="discontinued"><button><i class="fas fa-filter"></i></td>
+                </tr>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$18.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chang</td>
+                <td>$19.00</td>
+                <td>24 - 12 oz bottles</td>
+                <td>17</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Aniseed Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Chef Anton's Cajun Seasoning</td>
+                <td>$22.00</td>
+                <td>48 - 6 oz. jars</td>
+                <td>53</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Chef Anton's Gumbo Mix</td>
+                <td>$21.35</td>
+                <td>36 boxes</td>
+                <td>0</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued" checked disabled></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Grandma's Boysenberry Spread</td>
+                <td>$25.00</td>
+                <td>12 - 8 oz. jars</td>
+                <td>120</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Uncle Bob's Organic Dried Pears</td>
+                <td>$30.00</td>
+                <td>12 - 1 lb pkgs.</td>
+                <td>15</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued"></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Northwoods Cranberry Sauce</td>
+                <td>$40.00</td>
+                <td>12 - 12 oz jars</td>
+                <td>6</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued"></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Mishu Kobe Niku</td>
+                <td>$97.00</td>
+                <td>18 - 500 g pkgs.</td>
+                <td>29</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued" checked disabled></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ikura</td>
+                <td>$31.00</td>
+                <td>12 - 200 ml jars</td>
+                <td>31</td>
+                <td><input type="checkbox" name="discontinued" id="discontinued"></td>
+            </tr>
+            <tfoot class="gradient">
+                <tr class="footer">
+                    <td colspan="2" class="footer-edge-left">
+                        <button><i class="fas fa-step-backward"></i></button>
+                        <button><i class="fas fa-backward"></i></button>
+                        <a href="#" class="page-number active">1</a>
+                        <a href="#" class="page-number">2</a>
+                        <a href="#" class="page-number">3</a>
+                        <a href="#" class="page-number">4</a>
+                        <a href="#" class="page-number">5</a>
+                        <a href="#" class="page-number">6</a>
+                        <a href="#" class="page-number">7</a>
+                        <a href="#" class="page-number">8</a>
+                        <a href="#" class="page-number">9</a>
+                        <a href="#" class="page-number">10</a>
+                        ...
+                        <button><i class="fas fa-forward"></i></button>
+                        <button><i class="fas fa-step-forward"></i></button>
+                    </td>
+                    <td colspan="2" class="footer-middle">
+                        Page size:
+                        <select name="" id="">
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                    <td colspan="2" class="footer-edge-right">
+                        335104 items in 33511 pages
+                    </td>
+                </tr>
+            </tfoot>
+        </table>     
+    </body>
+</html>

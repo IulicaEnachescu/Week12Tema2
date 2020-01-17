@@ -1,0 +1,99 @@
+thead
+{
+    background-color: lightgray;
+
+}
+
+table
+{
+    border-collapse: collapse;
+    border: 1px thin black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+td
+{
+    border: 1px solid gray;
+}
+
+input[type="text"]
+{
+    margin: 2px;
+}
+
+.header
+{
+    height: 25px;
+}
+
+.gradient
+{
+    background-image: linear-gradient(to bottom,white, lightgray);
+    inset: 12px;
+}
+
+.gradient-dunk
+{
+    background-image: linear-gradient( rgba(211, 211, 211, 0.452),white,  rgba(211, 211, 211, 0.452))
+}
+
+.footer
+{
+    height: 28px;
+}
+
+.footer-edge-left
+{
+    border-right: none !important;
+}
+
+td > select
+{
+    background-color: white;
+}
+
+.footer-middle
+{
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.footer-edge-right
+{
+    border-left: 0px !important;
+    text-align: right !important;
+}
+
+.fas
+{
+    color: gray;
+}
+
+.narrow
+{
+    width: 20%;
+}
+
+.medium
+{
+    width: 40%;
+}
+
+.wide
+{
+    width: 75%;
+}
+
+.page-number
+{
+    color: black;
+    text-decoration: none;
+    margin-left: 1px;
+    padding: 2px;
+}
+
+.active
+{
+    border: 1px solid orange;
+}
